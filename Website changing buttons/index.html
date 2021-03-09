@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/16d52aba8d.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/calculator-512.png"type = "image/x-icon"> 
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="title"><p>Fast & simple calculators</p></div>
+
+            <div class="buttons">
+                <button id="btn1" onclick="show1()"><i class="fas fa-home"></i></button>
+                <button id="btn2" onclick="show2()">a²+b²=c²</button>
+                <button id="btn3" onclick="show3()">2+2=4</button>
+                <button id="btn4" onclick="show4()">E=mc2</button>
+            </div>
+
+            <div class="main">
+                <div id="part1" class="part">
+                    <div class="homeTitle">
+                        Welcome to my calculators!
+                    </div>
+                    
+                    <div class="homeText">
+                        Click on the buttons above to use any of them.
+                    </div>
+
+                    <div class="homeBottom">
+                        I hope you find them useful.
+                    </div>
+                </div>
+
+
+                <div id="part2" class="part">
+                    <div class="pythagorasTitle">
+                        Simple a²+b²=c² calculator
+                    </div>
+
+                    <div class="pythagorasInputDesc">
+                        <p class="pythagorasInputDesc1">a:</p>
+                        <p class="pythagorasInputDesc2">b:</p>
+                    </div>
+
+                    <div class="pythagorasInputs">
+                        <input type="number" id="pythagorasA">
+                        <input type="number" id="pythagorasB">
+                    </div>
+
+                    <div class="pythagorasButton">
+                        <button onclick="pythagoras()">Calculate</button>
+                    </div>
+
+                    <div class="pythagorasOutput">
+                        <div id="pythagorasA2B2">
+                            a²=     b²=
+                        </div>
+                        <div id="pythagorasC2">
+                            c²= 
+                        </div>
+                        <div id="pythagorasC">
+                            c = 
+                        </div>
+                    </div>
+                    <div class="pythagorasBottom">
+                        <p>* Rounded to the nearest thousandth</p>
+                    </div>
+                </div>
+
+
+                <div id="part3" class="part">
+                    quick maths
+                </div>
+
+
+                <div id="part4" class="part">
+                    simple equation
+                </div>
+            </div>
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,313 @@
+body{
+    background-color: #C9FFE2;
+}
+
+.title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title p{
+    width: 50%;
+    height: 80%;
+    background-color: #7DD181;
+    border-radius: 22px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #1F3321;
+    font-family: monospace;
+    font-size: 2.5vw;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.title p:hover{
+    font-size: 2.8vw;
+}
+
+.buttons{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+.buttons button{
+    width: 10%;
+    height: 100%;
+    border-radius: 22px;
+    font-size: 3vw;
+    font-family: monospace;
+    background-color: #7DD181;
+    outline: none;
+    color: #1F3321;
+    margin-left: 5%;
+    cursor: pointer;
+    border-color: #96E8BC;
+    border-width: 0.5vw;
+    transition: 1s;
+}
+
+.buttons button:hover{
+    width: 12%;
+    height: 120%;
+    background-color: #7dca93;
+}
+
+#btn1{
+    margin-left: 0;
+}
+
+#btn2{
+    font-size: 1.9vw;
+}
+
+#btn3{
+    font-size: 2.5vw;
+}
+
+#btn4{
+    font-size: 2.5vw;
+}
+
+.main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part{
+    width: 50%;
+    height: 80%;
+    background-color: #7DD181;
+    display: none;
+    border-radius: 22px;
+    justify-content: center;
+    
+}
+
+#part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.homeTitle{
+    width: 70%;
+    height: 10%;
+    background-color: #96E8BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 2vw;
+    border-radius: 22px;
+    color: #1F3321;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.homeTitle:hover{
+    font-size: 2.3vw;
+    width: 80%;
+}
+
+.homeText{
+    width: 70%;
+    height: 30%;
+    background-color: #96E8BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 2vw;
+    border-radius: 22px;
+    color: #1F3321;
+    margin-top: 10%;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s;
+}
+
+.homeText:hover{
+    font-size: 2.3vw;
+    width: 80%;
+}
+
+.homeBottom{
+    width: 70%;
+    height: 10%;
+    background-color: #96E8BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 2vw;
+    border-radius: 22px;
+    color: #1F3321;
+    margin-top: 10%;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s;
+}
+
+.homeBottom:hover{
+    font-size: 2.3vw;
+    width: 80%;
+}
+
+#part2{
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pythagorasTitle{
+    width: 70%;
+    height: 10%;
+    background-color: #96E8BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 2vw;
+    border-radius: 22px;
+    color: #1F3321;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.pythagorasTitle:hover{
+    font-size: 2.3vw;
+    width: 80%;
+}
+
+.pythagorasInputDesc{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    cursor: context-menu;
+}
+
+.pythagorasInputDesc p{
+    color: #1F3321;
+    font-family: monospace;
+    font-size: 2vw;
+}
+
+.pythagorasInputDesc2{
+    margin-left: 25%;
+}
+
+.pythagorasInputs{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pythagorasInputs input{
+    width: 12.5%;
+    height: 75%;
+    border-radius: 22px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5vw;
+    outline: none;
+    color: #1F3321;
+    border-color: #96E8BC;
+    border-width: 0.2vw;
+    background-color: #96E8BC;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#pythagorasB{
+    margin-left: 17.5%;
+}
+
+.pythagorasButton{
+    width: 100%;
+    height: 10%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pythagorasButton button{
+    width: 25%;
+    height: 95%;
+    border-radius: 22px;
+    background-color: #96E8BC;
+    outline: none;
+    transition: 1s;
+    color: #1F3321;
+    cursor: pointer;
+    border-color: #96E8BC;
+    font-family: monospace;
+    font-size: 2vw;
+}
+
+.pythagorasButton button:hover{
+    width: 30%;
+    height: 120%;
+    font-size: 2.4vw;
+}
+
+.pythagorasOutput{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #96E8BC;
+    margin-top: 3%;
+    border-radius: 22px;
+    cursor: context-menu;
+}
+
+.pythagorasOutput div{
+    font-family: monospace;
+    font-size: 2.5vw;
+    color: #1F3321;
+}
+
+.pythagorasBottom{
+    width: 100%;
+    height: 5%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pythagorasBottom p{
+    font-family: monospace;
+    font-size: 1vw;
+    cursor: context-menu;
+    color: #1F3321;
+}
