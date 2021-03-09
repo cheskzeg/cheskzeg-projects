@@ -31,7 +31,6 @@ function pythagoras() {
     const a = document.getElementById("pythagorasA").value;
     const b = document.getElementById("pythagorasB").value;
 
-
     const aSquare = a**2
     const bSquare = b**2
     const cSquare = aSquare + bSquare;
