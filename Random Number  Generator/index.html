@@ -1,0 +1,34 @@
+<html>
+    <header>
+        <title>Random Number Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </header>
+
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="title">Random Number Generator</div>
+            </div>
+            <div class="desc">
+                <div class="descText">
+                    Input two numbers and press the button to find a random number from inbetween those two numbers!
+                </div>
+            </div>
+            <div class="inputs">
+                <input type="number" name="num1" id="num1">
+                <input type="number" name="num2" id="num2">
+            </div>
+            <div class="buttonArea">
+                <button onclick="random()">Generate!</button>
+            </div>
+            <div class="outputArea">
+                <div class="output">
+                    <div id="outputText">Your random number from a to b is:</div>
+                    <div id="outputNumber"></div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
